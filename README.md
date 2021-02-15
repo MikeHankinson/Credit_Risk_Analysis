@@ -24,6 +24,13 @@ A total of 6 models were developed and are as follows:
 5. Logistic Regression using **Balanced Random Forest Classifier**
 6. Logistic Regression using **Easy Ensemble Classifier**
 
+The model included nearly 100 features while predicting the loan status (target) as either high or low risk. 
+
+Models are graded upon accuracy, precision and recall.
+- accuracy: The raio of correct number of predictions to total number of predictions. 
+- precision: The ratio of what was accurately predicted as true to the total that were actually true. Measure of reliability of a classification.   
+- sensitivity (recall): The ratio of true positives to true postives and false negatives.  Provides a measure of how many trues were correctly diagnosed.  
+
 The analysis was completed in two python files; [credit_risk_ensemble](credit_risk_ensemble.ipynb) and [credit_risk_resampling](credit_risk_resampling.ipynb)
 
 ## Results
@@ -71,5 +78,8 @@ The analysis was completed in two python files; [credit_risk_ensemble](credit_ri
  
  ## Summary
  ASDXc
+ 
+ Improve models
+ 1. Keep the top 5-10 influencing features while removing the others from the model.  
  
  

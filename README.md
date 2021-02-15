@@ -2,7 +2,7 @@
 ----------------------------------------------------------------------------------
 
 ## Overview of Loan Prediction Risk Analysis
-The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. Two sets of Amazon video game reviews were analyzed in this study; those written by the paid Amazon Vine program subscribers and those written outside of the Vine program.   
+Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.  In this assessment, machine learning models were applied to a large dataset in order to to build and evaluate loan risk factors.   Multiple models and sampling techniques were employed to train and evaluate unbalanced class data.
 
 ## Data Sources and Coding File
 Data for analysis was obtained from an [Amazon AWS S3 data repository](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz).

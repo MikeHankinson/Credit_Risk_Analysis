@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 ----------------------------------------------------------------------------------
 
-## Overview
+## Overview of Loan Prediction Risk Analysis
 The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. Two sets of Amazon video game reviews were analyzed in this study; those written by the paid Amazon Vine program subscribers and those written outside of the Vine program.   
 
 ## Data Sources and Coding File

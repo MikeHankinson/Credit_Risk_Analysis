@@ -5,7 +5,7 @@
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.  In this assessment, machine learning models were applied to a large dataset in order to to build and evaluate loan risk factors.   Multiple models and sampling techniques were employed to train and evaluate unbalanced class data.
 
 ## Data Sources and Coding File
-Data for analysis was proivided in a 91 kb csv file entitled **LoanStats_2019Q1.csv**.  The file is located in   [this zipped repository](/Module-17-Challenge-Resources.zip). The file must be unzipped in order to complete the analysis.  
+Data for analysis was proivided in a 91 kb csv file entitled **LoanStats_2019Q1.csv**.  The file is located in   [a zipped repository](/Module-17-Challenge-Resources.zip). The file must be unzipped in order to complete the analysis.  
 
 ## Analysis Methodology
 Python, in Jupyter Notebook, was used to build and evaluate the models.  The supervised learning pattern used for each model included the following steps:  
@@ -24,7 +24,7 @@ A total of 6 models were developed and are as follows:
 5. Logistic Regression using **BalancedRandomForestClassifier**
 6. Logistic Regression using **EasyEnsembleClassifier**
 
-The analysis was completed on two python files; [credit_risk_ensemble](credit_risk_ensemble.ipynb) and [credit_risk_resampling](credit_risk_resampling.ipynb)
+The analysis was completed in two python files; [credit_risk_ensemble](credit_risk_ensemble.ipynb) and [credit_risk_resampling](credit_risk_resampling.ipynb)
 
 ## Results
 

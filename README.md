@@ -8,7 +8,15 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 Data for analysis was proivided in a 91 kb csv file entitled **LoanStats_2019Q1.csv**.  The file is located in   [this zipped repository](/Module-17-Challenge-Resources.zip). The file must be unzipped in order to complete the analysis.  
 
 ## Analysis Methodology
-Customer reviews were imported from an Amazon AWS S3 data repository into a user-specific AWS S3 account.  A database was created in pgAdmin and tied to an Amazon AWS RDS server.  Project data was extracted and transformed using a Google Colab Notebook, [Amazon_Reviews_ETL](Amazon_Reviews_ETL.ipynb).  
+Python, in Jupyter Notebook, was used to build and evaluate the models.  The supervised learning pattern used for each model included the following steps:  
+1. Load data
+2. Split data into targets and features
+3. Split data into training and testing buckets
+4. Fit/train the model with training data
+5. Create predictions based upon developed model
+6. Validate the model using testing data
+
+
 
 Using PySPark and Pandas, data was filtered, parsed and coalesced into a format to evaluate and determine if there exists a bias towards reviews written as part of the Vine program.  The evaluation was performed using a Google Colab Notebook, [Vine_Review_Analysis](Vine_Review_Analysis.ipynb). 
 

@@ -5,7 +5,7 @@
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.  In this assessment, machine learning models were applied to a large dataset in order to to build and evaluate loan risk factors.   Multiple models and sampling techniques were employed to train and evaluate unbalanced class data.
 
 ## Data Sources and Coding File
-Data for analysis was obtained from an [Amazon AWS S3 data repository](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz).
+Data for analysis was proivided in a 91 kb csv file entitled **LoanStats_2019Q1.csv**.  The file is located in   [this zipped repository](/Module-17-Challenge-Resources.zip). The file must be unzipped in order to complete the analysis.  
 
 ## Analysis Methodology
 Customer reviews were imported from an Amazon AWS S3 data repository into a user-specific AWS S3 account.  A database was created in pgAdmin and tied to an Amazon AWS RDS server.  Project data was extracted and transformed using a Google Colab Notebook, [Amazon_Reviews_ETL](Amazon_Reviews_ETL.ipynb).  

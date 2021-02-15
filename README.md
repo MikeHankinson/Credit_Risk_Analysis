@@ -16,14 +16,20 @@ Python, in Jupyter Notebook, was used to build and evaluate the models.  The sup
 5. Create predictions based upon developed model
 6. Validate the model using testing data
 
+A total of 6 models were developed and are as follows:
+1. Logistic Regression using oversampling with **RandomOverSampler** algorithm
+2. Logistic Regression using oversampling sampling with **SMOTE** algorithm
+3. Logistic Regression using undersampling sampling with **ClusterCentroids** algorithm
+4. Logistic Regression using combined approach of over- and undersampling with **SMOTEENN** algorithm
+5. Logistic Regression using **BalancedRandomForestClassifier**
+6. Logistic Regression using **EasyEnsembleClassifier**
 
-
-Using PySPark and Pandas, data was filtered, parsed and coalesced into a format to evaluate and determine if there exists a bias towards reviews written as part of the Vine program.  The evaluation was performed using a Google Colab Notebook, [Vine_Review_Analysis](Vine_Review_Analysis.ipynb). 
+The analysis was completed on two python files; [credit_risk_ensemble](credit_risk_ensemble.ipynb) and [credit_risk_resampling](credit_risk_resampling.ipynb)
 
 ## Results
-The figure below is the resulting Vine Summary Data Frame. Clearly, the volume of non-Vine reviews dwarfs that of those within the Vine program.  In order to determine bias, this study evaluated 5-Star reviews from within and outside the program.  With this data sample, there was a fairly significant difference of 5-Star grades for video games between the two data sub-sets.  Vine reviewers were more inclined to provide the highest rating (51.1% of reviews) as compared to non-vine reviewers (38.7% reviews). 
 
-Further analysis should be performed for each star grade bucket (1-5) to further support the bias claim.  
+
+
 
  ![Sudy Summary](Vine_Summary_DF.PNG)
 

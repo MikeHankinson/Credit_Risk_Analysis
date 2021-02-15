@@ -18,18 +18,58 @@ Python, in Jupyter Notebook, was used to build and evaluate the models.  The sup
 
 A total of 6 models were developed and are as follows:
 1. Logistic Regression using oversampling with **RandomOverSampler** algorithm
-2. Logistic Regression using oversampling sampling with **SMOTE** algorithm
-3. Logistic Regression using undersampling sampling with **ClusterCentroids** algorithm
+2. Logistic Regression using oversampling with **SMOTE** algorithm
+3. Logistic Regression using undersampling with **ClusterCentroids** algorithm
 4. Logistic Regression using combined approach of over- and undersampling with **SMOTEENN** algorithm
-5. Logistic Regression using **BalancedRandomForestClassifier**
-6. Logistic Regression using **EasyEnsembleClassifier**
+5. Logistic Regression using **Balanced Random Forest Classifier**
+6. Logistic Regression using **Easy Ensemble Classifier**
 
 The analysis was completed in two python files; [credit_risk_ensemble](credit_risk_ensemble.ipynb) and [credit_risk_resampling](credit_risk_resampling.ipynb)
 
 ## Results
 
+### Logistic Regression Using Oversampling with RandomOverSampler Algorithm
 
+ ![1](/Images_Readme/Random_Oversampling.PNG)
+ 
+ z fds df
+ 
+ ### Logistic Regression Using Oversampling Sampling with SMOTE Algorithm
 
+ ![2](/Images_Readme/SMOTE_Oversampling.PNG)
+ 
+ z fds df
+ 
 
- ![Sudy Summary](Vine_Summary_DF.PNG)
+### Logistic Regression Using Undersampling with ClusterCentroids Algorithm
 
+ ![3](/Images_Readme/ClusterCentroids_Undersampling.PNG)
+ 
+ z fds df
+ 
+ ### Logistic Regression Using Combined Approach with SMOTEENN Algorithm
+
+ ![4](/Images_Readme/SMOTEENN_Over_Under.PNG)
+ 
+ z fds df
+ 
+ ### Logistic Regression Using Balanced Random Forest Classifier
+
+ ![5](/Images_Readme/Balanced_Random_Forest_Classifier.PNG)
+ 
+ z fds df
+ 
+ ![6](/Images_Readme/Top10_Features_Balanced_Forest.PNG) 
+ 
+ dfssD
+ 
+  ### Logistic Regression Using Easy Ensemble Classifier
+
+ ![7](/Images_Readme/Easy_Ensemble_Classifier.PNG)
+ 
+ z fds df
+ 
+ ## Summary
+ ASDXc
+ 
+ 

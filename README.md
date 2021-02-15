@@ -27,60 +27,54 @@ A total of 6 models were developed and are as follows:
 The model included nearly 100 features while predicting the loan status (target) as either high or low risk. 
 
 Models are graded upon accuracy, precision, recall and F1.
-- accuracy: The raio of correct number of predictions to total number of predictions. 
+- accuracy: The ratio of correct number of predictions to total number of predictions. 
 - precision: The ratio of what was accurately predicted as true to the total that were actually true. Measure of reliability of a classification.   
-- sensitivity (recall): The ratio of true positives to true postives and false negatives.  Provides a measure of how many trues were correctly diagnosed. 
+- sensitivity (recall): The ratio of true positives to true positives and false negatives.  Provides a measure of how many trues were correctly diagnosed. 
 - F1: Takes both precision and recall into account to ultimately measure the accuracy of the model
 
 The analysis was completed in two python files; [credit_risk_ensemble](credit_risk_ensemble.ipynb) and [credit_risk_resampling](credit_risk_resampling.ipynb)
 
 ## Results
 
+### Data Rollup
+
+The following is a rollup of the 6 model results.  Results of models individually are provided in the subsections.  
+
+![8](/Images_Readme/Summary.PNG)
+
 ### Logistic Regression Using Oversampling with RandomOverSampler Algorithm
 
  ![1](/Images_Readme/Random_Oversampling.PNG)
  
- z fds df
- 
  ### Logistic Regression Using Oversampling Sampling with SMOTE Algorithm
 
  ![2](/Images_Readme/SMOTE_Oversampling.PNG)
- 
- z fds df
- 
 
 ### Logistic Regression Using Undersampling with ClusterCentroids Algorithm
 
  ![3](/Images_Readme/ClusterCentroids_Undersampling.PNG)
  
- z fds df
- 
  ### Logistic Regression Using Combined Approach with SMOTEENN Algorithm
 
  ![4](/Images_Readme/SMOTEENN_Over_Under.PNG)
- 
- z fds df
  
  ### Logistic Regression Using Balanced Random Forest Classifier
 
  ![5](/Images_Readme/Balanced_Random_Forest_Classifier.PNG)
  
- z fds df
+The top 10 features contributing to the model are shown below:
  
  ![6](/Images_Readme/Top10_Features_Balanced_Forest.PNG) 
- 
- dfssD
  
   ### Logistic Regression Using Easy Ensemble Classifier
 
  ![7](/Images_Readme/Easy_Ensemble_Classifier.PNG)
  
- z fds df
- 
  ## Summary
- ASDXc
+All six models were excellent at predicting low risk loans.  However, none were highly effective at predicting high risk loans -- the intent of the study was to develop a model to predict such loans. 
+
+The recommendation is to dig deeper into the models in order to improve to an acceptable level.  In order to do so, this study recommends keeping the top 5-10 influencing features while removing the others from the model.  
  
- Improve models
- 1. Keep the top 5-10 influencing features while removing the others from the model.  
+
  
  

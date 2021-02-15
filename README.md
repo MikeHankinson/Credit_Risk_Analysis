@@ -26,10 +26,11 @@ A total of 6 models were developed and are as follows:
 
 The model included nearly 100 features while predicting the loan status (target) as either high or low risk. 
 
-Models are graded upon accuracy, precision and recall.
+Models are graded upon accuracy, precision, recall and F1.
 - accuracy: The raio of correct number of predictions to total number of predictions. 
 - precision: The ratio of what was accurately predicted as true to the total that were actually true. Measure of reliability of a classification.   
-- sensitivity (recall): The ratio of true positives to true postives and false negatives.  Provides a measure of how many trues were correctly diagnosed.  
+- sensitivity (recall): The ratio of true positives to true postives and false negatives.  Provides a measure of how many trues were correctly diagnosed. 
+- F1: Takes both precision and recall into account to ultimately measure the accuracy of the model
 
 The analysis was completed in two python files; [credit_risk_ensemble](credit_risk_ensemble.ipynb) and [credit_risk_resampling](credit_risk_resampling.ipynb)
 
